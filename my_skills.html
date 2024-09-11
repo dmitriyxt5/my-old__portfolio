@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Веб-разработчик Дмитрий Белогаш</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div id="dialog" onclick=" closeImage()">
+    <div class="dialog_window">
+        <div class="modal_window">
+            <h5>x</h5>
+
+            <img id="big_img" src="@@image" alt="@@image" width="97%">
+        </div>
+    </div>
+</div>
+<script>
+    function closeImage() {
+        document.getElementById('dialog').style.display = 'none'
+        document.getElementById('big_img').src = '../img/konstrukt.png'
+    }
+</script>
+    <header class="header">
+    <div>
+        <h1><a href="/">Дмитрий Белогаш</a></h1>
+    </div>
+    <div class="header_left">
+    <a target="_blank" href="https://github.com/dmitriyxt5">
+        <img class="github_profile" src="./img/github.svg" alt="github_profile" width="56px">
+    </a>
+    <div class="block_social">
+        <a target="_blank" href="https://kwork.ru/user/DmitryFullStack">
+            <img src="./img/kwork.png" alt="kwork_profile" width="50px" style="margin-top: 5px;">
+        </a>
+        <a target="_blank" href="https://wa.me/77027959618">
+            <img src="./img/whatsapp.png" alt="whatsapp_profile" width="45px" style="margin-top: 5px;">
+        </a>
+        <a target="_blank" href="https://t.me/fkcommerce">
+            <img src="./img/telegram.png" alt="telegram_profile" width="45px" style="margin-top: 5px;">
+        </a>
+    </div>
+</div>
+</header>
+
+<script
+    type="text/javascript">window.$crisp = []; window.CRISP_WEBSITE_ID = "e3f8d058-71a7-4904-8ea3-f12ce27e6634"; (function () { d = document; s = d.createElement("script"); s.src = "https://client.crisp.chat/l.js"; s.async = 1; d.getElementsByTagName("head")[0].appendChild(s); })();</script>
+    <main id="main">
+        <div class="main main_desktop" id="main">
+    <div class="quantity_web_devepoling">
+        <h1>
+            <span>Качественная <img src="./img/Galka.svg" alt="galka"></span>
+            Веб-разработка!
+        </h1>
+        <h2>Реализую Ваши идеи</h2>
+        <form action="/price.html#my_works" method="link">
+            <button>ЗАКАЗАТЬ</button>
+        </form>
+    </div>
+    <div class="dmitriy_belogash">
+        <img src="../img/dmitriy_belogash.png" alt="belogash" width="400px">
+        <!-- {if (flex == true) { -->
+        <form action="/example_works.html#my_works" method="link">
+            <button style="display: flex;">МОИ РАБОТЫ</button>
+        </form>
+        <!-- }} -->
+    </div>
+    <img class="galka_violet" src="../img/Galka_violet.svg" alt="galka_violet">
+</div>
+<div class="main main_tablet" id="main">
+    <div class="quantity_web_devepoling">
+        <h1>
+            <span>Качественная <img src="./img/Galka.svg" alt="galka"></span>
+            Веб-разработка!
+        </h1>
+        <div class="dmitriy_belogash">
+
+            <img src="../img/dmitriy_belogash.png" alt="belogash" width="400px">
+        </div>
+        <h2>Реализую Ваши идеи!</h2>
+        <!-- <form action="/price.html#my_works" method="link"> -->
+        <div class="dmitriy_belogash">
+
+            <form action="/example_works.html#my_works" method="link">
+                <button style="display: flex;">МОИ РАБОТЫ</button>
+            </form>
+        </div>
+        <form action="/price.html#my_works" method="link">
+
+            <button>ЗАКАЗАТЬ</button>
+        </form>
+        <!-- </form> -->
+    </div>
+    <!-- <div class="dmitriy_belogash">
+        <img src="../img/dmitriy_belogash.png" alt="belogash" width="400px">
+      
+        <form action="/example_works.html#my_works" method="link">
+            <button style="display: flex;">МОИ РАБОТЫ</button>
+        </form>
+     
+    </div> -->
+    <img class="galka_violet" src="../img/Galka_violet.svg" alt="galka_violet">
+</div>
+        <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .menu {
+            list-style-type: none;
+            padding: 5px 25px;
+            margin: 0;
+            color: #000000;
+        }
+
+        .menu>li {
+            margin-bottom: 10px;
+        }
+
+        .submenu {
+            list-style-type: none;
+            padding: 5px 20px;
+            display: none;
+        }
+
+        .has-submenu {
+            padding: 5px 20px;
+            cursor: pointer;
+        }
+
+        .no-pointer {
+            cursor: default;
+        }
+
+        ul {
+            padding: 50px 0px;
+        }
+
+        li {
+            padding: 10px 5px;
+            margin-bottom: 5px;
+            background-color: #00000021;
+            border-radius: 20px;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="verstka_head">
+        <div class="verstka_syte_background" id="verstka_syte_background">
+            <div id="verstka_syte" class="verstka_syte" onmousemove="coordinate(event)">
+                <div class="verstka_wrapper">
+                    <span class="verstka"></span>
+                </div>
+
+                <div class="my_works" id="my_works">
+                    <h1 id="col">
+                        <a class="can_you_view_my_works3" href="/#main">Мои навыки</a>
+                        <span class="can_you_view_my_works cent flex_col">
+                            <div class="flex center padd">
+                                <div>
+                                    <img class="m-auto " src="../img/html+css+js.png" alt="html+css+js" width="400px">
+                                    <h1 class="head_text">HTML + CSS + JS</h1>
+                                </div>
+                                <div>
+                                    <h1 class="text_small">Я реализовал множество проектов с использованием Javascript и
+                                        его библиотек.
+                                        Писал бэкэнд на NodeJS для образовательного проекта.
+                                    </h1>
+                                    <ul class="menu menucss menucenter ">
+                                        <li class="has-submenu" onclick="toggleSubmenu(event, 'html-submenu')">HTML
+                                            &#9662;
+                                            <ul class="submenu" id="html-submenu">
+                                                <!-- <li class="no-pointer">Основы HTML:</li> -->
+                                                <li class="has-submenu" onclick="toggleSubmenu(event, 'html-micro')">
+                                                    Основы
+                                                    HTML &#9662
+                                                    <ul class="submenu" id="html-micro">
+                                                        <li>Структура HTML-документа.</li>
+                                                        <li>Основные теги (например, div, span, p, a, img, form,
+                                                            input).</li>
+                                                        <li>Атрибуты тегов (например, class, id, src, href, alt, title).
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="has-submenu" onclick="toggleSubmenu(event, 'html-micro2')">
+                                                    Семантическая разметка &#9662
+                                                    <ul class="submenu" id="html-micro2">
+                                                        <li>Семантические элементы HTML5 (header, footer, article,
+                                                            section,
+                                                            aside, main, nav, figure, figcaption, time).</li>
+                                                        <li>Семантические элементы важны для SEO и
+                                                            доступности.</li>
+                                                    </ul>
+                                                </li>
+                                                <li class="has-submenu" onclick="toggleSubmenu(event, 'html-micro3')">
+                                                    Формы и валидация &#9662
+                                                    <ul class="submenu" id="html-micro3">
+                                                        <li>Создание форм и использование различных элементов форм
+                                                            (input,
+                                                            select, textarea, button, fieldset, legend).</li>
+                                                        <li>Клиентская валидация форм с использованием встроенных
+                                                            возможностей HTML5 (например, атрибуты required, pattern,
+                                                            min,
+                                                            max, step).</li>
+                                                    </ul>
+                                                </li>
+                                                <li class="has-submenu" onclick="toggleSubmenu(event, 'html-micro4')">
+                                                    Мультимедиа &#9662
+                                                    <ul class="submenu" id="html-micro4">
+                                                        <li>Встраивание изображений, видео и аудио с использованием
+                                                            тегов
+                                                            img, video, audio.</li>
+                                                        <li>Использование атрибутов для управления мультимедийными
+                                                            элементами (например, controls, autoplay, loop).</li>
+                                                    </ul>
+                                                </li>
+                                                <li class="has-submenu" onclick="toggleSubmenu(event, 'html-micro41')">
+                                                    Таблицы &#9662
+                                                    <ul class="submenu" id="html-micro41">
+                                                        <li>Создание таблиц с помощью тегов table, thead, tbody, tfoot,
+                                                            tr,
+                                                            th, td.</li>
+                                                        <li>Использование атрибутов и свойств для стилизации и
+                                                            форматирования таблиц.</li>
+                                                    </ul>
+                                                </li>
+                                                <li class="has-submenu" onclick="toggleSubmenu(event, 'html-micro5')">
+                                                    Ссылки и навигация &#9662
+                                                    <ul class="submenu" id="html-micro5">
+                                                        <li>Создание ссылок с использованием тега a.</li>
+                                                        <li>Навигационные элементы и их использование в разметке
+                                                            (например,
+                                                            nav).</li>
+                                                    </ul>
+                                                </li>
+                                                <li class="has-submenu" onclick="toggleSubmenu(event, 'html-micro51')">
+                                                    Атрибуты глобальных данных &#9662
+                                                    <ul class="submenu" id="html-micro51">
+                                                        <li>Понимание и использование атрибутов глобальных данных
+                                                            (например,
+                                                            data-* атрибуты).</li>
+                                                    </ul>
+                                                </li>
+                                                <li class="has-submenu" onclick="toggleSubmenu(event, 'html-micro6')">
+                                                    Доступность (Accessibility) &#9662 <ul class="submenu"
+                                                        id="html-micro6">
+                                                        <li>Основы доступности (ARIA-атрибуты, семантические теги,
+                                                            табличные
+                                                            индексы).</li>
+                                                        <li>Создание доступных форм и интерактивных элементов.</li>
+
+                                                    </ul>
+                                                </li>
+                                                <li class="has-submenu" onclick="toggleSubmenu(event, 'html-micro7')">
+                                                    Метаданные &#9662 <ul class="submenu" id="html-micro7">
+                                                        <li>Метатеги для SEO (meta name="description", meta
+                                                            name="keywords",
+                                                            meta charset="UTF-8", meta name="viewport").</li>
+
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+
+
+                                    </ul>
+                                    <ul class="menu menucss menucenter ">
+                                        <li class="has-submenu" onclick="toggleSubmenu(event, 'css-submenu')">CSS
+                                            &#9662;
+                                            <ul class="submenu" id="css-submenu">
+                                                <li class="has-submenu" onclick="toggleSubmenu(event, 'css-micro')">
+                                                    Основы
+                                                    CSS &#9662
+                                                    <ul class="submenu" id="css-micro">
+                                                        <li>Структура HTML-документа.</li>
+                                                        <li>Основные теги (например, div, span, p, a, img, form,
+                                                            input).</li>
+                                                        <li>Атрибуты тегов (например, class, id, src, href, alt, title).
+                                                        </li>
+                                                    </ul>
+                                                </li>
+
+
+                                                <ul class="submenu" id="css-micro">
+                                                    <li>Селекторы и специфичность.</li>
+                                                    <li>Основные свойства и значения.</li>
+                                                    <li>Цветовые модели (RGB, HEX, HSL).</li>
+                                                </ul>
+                                        </li>
+                                        <li class="has-submenu" onclick="toggleSubmenu(event, 'css-micro2')">CSS
+                                            Flexbox
+                                            &#9662;
+                                            <ul class="submenu" id="css-micro2">
+                                                <li>Контейнеры и элементы flex.</li>
+                                                <li>Направление flex, выравнивание, порядок элементов.</li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-submenu" onclick="toggleSubmenu(event, 'css-micro3')">CSS
+                                            Grid
+                                            &#9662;
+                                            <ul class="submenu" id="css-micro3">
+                                                <li>Создание сеток с использованием grid-контейнеров.</li>
+                                                <li>Определение строк и столбцов, размещение элементов.</li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-submenu" onclick="toggleSubmenu(event, 'css-micro4')">
+                                            Анимации и
+                                            переходы &#9662;
+                                            <ul class="submenu" id="css-micro4">
+                                                <li>Переходы (transition) и их параметры.</li>
+                                                <li>Ключевые кадры анимации (keyframes).</li>
+                                                <li>Использование анимаций для создания сложных эффектов.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-submenu" onclick="toggleSubmenu(event, 'css-micro5')">CSS
+                                            препроцессоры &#9662;
+                                            <ul class="submenu" id="css-micro5">
+                                                <li>Основы SCSS (переменные, вложенность, миксины,
+                                                    наследование).
+                                                </li>
+                                                <li>Компиляция SCSS в CSS.</li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-submenu" onclick="toggleSubmenu(event, 'css-micro6')">
+                                            Респонсивная верстка &#9662;
+                                            <ul class="submenu" id="css-micro6">
+                                                <li>Медиа-запросы (media queries) и их использование.</li>
+                                                <li>Адаптивные и отзывчивые макеты.</li>
+                                            </ul>
+                                        </li>
+                                        </li>
+                                    </ul>
+                                    </ul>
+                                    <ul class="menu menucss menucenter">
+                                        <li class="has-submenu" onclick="toggleSubmenu(event, 'js-submenu')">JavaScript
+                                            &#9662;
+                                            <ul class="submenu" id="js-submenu">
+                                                <li class="has-submenu" onclick="toggleSubmenu(event, 'js-micro')">
+                                                    Основы JavaScript &#9662;
+                                                    <ul class="submenu" id="js-micro">
+                                                        <li>Синтаксис и операторы.</li>
+                                                        <li>Типы данных и переменные.</li>
+                                                        <li>Функции и области видимости.</li>
+                                                    </ul>
+                                                </li>
+                                                <li class="has-submenu" onclick="toggleSubmenu(event, 'js-micro2')">
+                                                    Работа с DOM &#9662;
+                                                    <ul class="submenu" id="js-micro2">
+                                                        <li>Поиск и выбор элементов.</li>
+                                                        <li>Изменение содержимого и атрибутов.</li>
+                                                        <li>Обработка событий.</li>
+                                                    </ul>
+                                                </li>
+                                                <li class="has-submenu" onclick="toggleSubmenu(event, 'js-micro3')">
+                                                    Продвинутые концепции &#9662;
+                                                    <ul class="submenu" id="js-micro3">
+                                                        <li>Замыкания (closures).</li>
+                                                        <li>Контекст выполнения (this).</li>
+                                                        <li>Асинхронное программирование (promises, async/await).</li>
+                                                    </ul>
+                                                </li>
+                                                <li class="has-submenu" onclick="toggleSubmenu(event, 'js-micro4')">
+                                                    Работа с API &#9662;
+                                                    <ul class="submenu" id="js-micro4">
+                                                        <li>HTTP-запросы (fetch, XMLHttpRequest).</li>
+                                                        <li>Интеграция с RESTful API.</li>
+                                                        <li>Работа с JSON.</li>
+                                                    </ul>
+                                                </li>
+                                                <li class="has-submenu" onclick="toggleSubmenu(event, 'js-micro5')">
+                                                    Модули и сборщики &#9662;
+                                                    <ul class="submenu" id="js-micro5">
+                                                        <li>Использование ES6 модулей.</li>
+                                                        <li>Настройка сборщиков (Webpack, Babel).</li>
+                                                        <li>Модули CommonJS и AMD.</li>
+                                                    </ul>
+                                                </li>
+                                                <li class="has-submenu" onclick="toggleSubmenu(event, 'js-micro7')">
+                                                    Backend и API &#9662;
+                                                    <ul class="submenu" id="js-micro7">
+                                                        <li>Работа с Node.js и Express.</li>
+                                                        <li>Интеграция с различными базами данных (например, MongoDB,
+                                                            PostgreSQL).</li>
+                                                        <li>Создание и использование RESTful API.</li>
+                                                        <li>Аутентификация и авторизация (JWT, OAuth).</li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                            <div class="flex center padd">
+                                <div>
+                                    <img class="m-auto " src="../img/figma.png" alt="html+css+js" width="400px">
+                                    <h1 class="head_text">Figma</h1>
+                                </div>
+                                <div>
+                                    <h1 class="text_small">Умею создавать качественные прототипы сайтов и логотипы.
+                                    </h1>
+                                    <ul class="menu menucss menucenter">
+                                        <li class="has-submenu" onclick="toggleSubmenu(event, 'figma-submenu')">Figma
+                                            &#9662;
+                                            <ul class="submenu" id="figma-submenu">
+                                                <li class="has-submenu" onclick="toggleSubmenu(event, 'figma-micro')">
+                                                    Основы Figma &#9662;
+                                                    <ul class="submenu" id="figma-micro">
+                                                        <li>Работа с фреймами и слоями.</li>
+                                                        <li>Создание и использование компонентов.</li>
+                                                        <li>Использование сеток и направляющих.</li>
+                                                    </ul>
+                                                </li>
+                                                <li class="has-submenu" onclick="toggleSubmenu(event, 'figma-micro2')">
+                                                    Дизайн интерфейсов &#9662;
+                                                    <ul class="submenu" id="figma-micro2">
+                                                        <li>Создание макетов и прототипов.</li>
+                                                        <li>Работа с типографикой и цветами.</li>
+                                                        <li>Использование автолейаутов.</li>
+                                                    </ul>
+                                                </li>
+                                                <li class="has-submenu" onclick="toggleSubmenu(event, 'figma-micro3')">
+                                                    Совместная работа &#9662;
+                                                    <ul class="submenu" id="figma-micro3">
+                                                        <li>Совместное редактирование и комментарии.</li>
+                                                        <li>Передача дизайнов разработчикам.</li>
+                                                        <li>Управление версиями и история изменений.</li>
+                                                    </ul>
+                                                </li>
+                                                <li class="has-submenu" onclick="toggleSubmenu(event, 'figma-micro4')">
+                                                    Плагины и интеграции &#9662;
+                                                    <ul class="submenu" id="figma-micro4">
+                                                        <li>Установка и использование плагинов.</li>
+                                                        <li>Интеграция с другими инструментами (например, Zeplin, JIRA).
+                                                        </li>
+                                                        <li>Создание собственных плагинов.</li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+
+
+                                </div>
+                            </div>
+                            <div class="flex center padd">
+                                <div class="m-auto1">
+                                    <img class="m-auto " src="../img/reactjs.png" alt="reactjs" width="250px">
+                                    <h1 class="head_text">React</h1>
+                                </div>
+                                <div>
+                                    <h1 class="text_small">Проработанные React проекты с стейт менеджером Effector и
+                                        роутингом React Router.
+                                    </h1>
+                                    <ul class="menu menucss menucenter">
+                                        <li class="has-submenu" onclick="toggleSubmenu(event, 'react-submenu')">React
+                                            &#9662;
+                                            <ul class="submenu" id="react-submenu">
+                                                <li class="has-submenu" onclick="toggleSubmenu(event, 'react-micro')">
+                                                    Основы React &#9662;
+                                                    <ul class="submenu" id="react-micro">
+                                                        <li>Создание компонентов (функциональные и классовые).</li>
+                                                        <li>Использование хуков (useState, useEffect и т.д.).</li>
+                                                        <li>Жизненный цикл компонентов.</li>
+                                                    </ul>
+                                                </li>
+                                                <li class="has-submenu" onclick="toggleSubmenu(event, 'react-micro2')">
+                                                    Состояние и управление данными &#9662;
+                                                    <ul class="submenu" id="react-micro2">
+                                                        <li>Контекст API (Context API).</li>
+                                                        <li>Effector и другие менеджеры состояния.</li>
+                                                        <li>Работа с API (axios, fetch).</li>
+                                                    </ul>
+                                                </li>
+                                                <li class="has-submenu" onclick="toggleSubmenu(event, 'react-micro3')">
+                                                    Роутинг &#9662;
+                                                    <ul class="submenu" id="react-micro3">
+                                                        <li>React Router.</li>
+                                                        <li>Динамические маршруты и параметры.</li>
+                                                        <li>Защищенные маршруты.</li>
+                                                    </ul>
+                                                </li>
+                                                <li class="has-submenu" onclick="toggleSubmenu(event, 'react-micro4')">
+                                                    Оптимизация производительности &#9662;
+                                                    <ul class="submenu" id="react-micro4">
+                                                        <li>Использование React.memo и useCallback.</li>
+                                                        <li>Код-сплиттинг и ленивые загрузки (React.lazy и Suspense).
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="has-submenu" onclick="toggleSubmenu(event, 'react-micro5')">
+                                                    Тестирование &#9662;
+                                                    <ul class="submenu" id="react-micro5">
+                                                        <li>Jest и React Testing Library.</li>
+                                                        <li>Написание юнит-тестов и интеграционных тестов.</li>
+                                                    </ul>
+                                                </li>
+                                                <li class="has-submenu" onclick="toggleSubmenu(event, 'react-micro6')">
+                                                    Условный рендеринг &#9662;
+                                                    <ul class="submenu" id="react-micro6">
+                                                        <li>Использование тернарного оператора.</li>
+                                                        <li>Использование логического оператора &&.</li>
+                                                        <li>Функции для условного рендеринга.</li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+
+                                        </li>
+                                    </ul>
+                                    <ul class="menu menucenter menucss">
+                                        <li class="has-submenu" onclick="toggleSubmenu(event, 'typescript-submenu')">
+                                            TypeScript &#9662;
+                                            <ul class="submenu" id="typescript-submenu">
+                                                <li class="has-submenu"
+                                                    onclick="toggleSubmenu(event, 'typescript-micro')">Основы TypeScript
+                                                    &#9662;
+                                                    <ul class="submenu" id="typescript-micro">
+                                                        <li>Типизация переменных и функций.</li>
+                                                        <li>Интерфейсы и типы (Interfaces и Types).</li>
+                                                        <li>Enum и Union типы.</li>
+                                                    </ul>
+                                                </li>
+                                                <li class="has-submenu"
+                                                    onclick="toggleSubmenu(event, 'typescript-micro2')">Продвинутая
+                                                    типизация &#9662;
+                                                    <ul class="submenu" id="typescript-micro2">
+                                                        <li>Дженерики (Generics).</li>
+                                                        <li>Типизация асинхронных функций.</li>
+                                                        <li>Mapped и Conditional Types.</li>
+                                                    </ul>
+                                                </li>
+                                                <li class="has-submenu"
+                                                    onclick="toggleSubmenu(event, 'typescript-micro3')">Работа с React и
+                                                    TypeScript&#9662;
+                                                    <ul class="submenu" id="typescript-micro3">
+                                                        <li>Типизация компонентов и пропсов.</li>
+                                                        <li>Использование хуков с TypeScript.</li>
+                                                        <li>HOC и рендер-пропсы с TypeScript.</li>
+                                                    </ul>
+                                                </li>
+                                                <li class="has-submenu"
+                                                    onclick="toggleSubmenu(event, 'typescript-micro4')">Инструменты и
+                                                    настройка проекта &#9662;
+                                                    <ul class="submenu" id="typescript-micro4">
+                                                        <li>Настройка tsconfig.json.</li>
+                                                        <li>Использование TSLint и ESLint.</li>
+                                                        <li>Интеграция с Webpack и Babel.</li>
+                                                    </ul>
+                                                </li>
+                                                <li class="has-submenu"
+                                                    onclick="toggleSubmenu(event, 'typescript-micro5')">Тестирование
+                                                    &#9662;
+                                                    <ul class="submenu" id="typescript-micro5">
+                                                        <li>Тестирование типов.</li>
+                                                        <li>Интеграция с тестовыми библиотеками (Jest, Mocha).</li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+
+
+
+                                </div>
+                            </div>
+                            <div class="flex center padd">
+                                <div class="m-auto1">
+                                    <img class="m-auto " src="../img/nextjs.svg" alt="nextjs" width="250px">
+                                    <h1 class="head_text">NextJS</h1>
+                                </div>
+                                <div>
+                                    <h1 class="text_small">NextJS сайты для лучшего SEO
+                                    </h1>
+                                    <ul class="menu menucenter menucss">
+                                        <li class="has-submenu" onclick="toggleSubmenu(event, 'nextjs-submenu')">Next.js
+                                            &#9662;
+                                            <ul class="submenu" id="nextjs-submenu">
+                                                <li class="has-submenu" onclick="toggleSubmenu(event, 'nextjs-micro')">
+                                                    Основы Next.js &#9662;
+                                                    <ul class="submenu" id="nextjs-micro">
+                                                        <li>Файловая структура и базовые концепции.</li>
+                                                        <li>Роутинг страниц (pages).</li>
+                                                        <li>Работа с компонентами.</li>
+                                                    </ul>
+                                                </li>
+                                                <li class="has-submenu" onclick="toggleSubmenu(event, 'nextjs-micro2')">
+                                                    Рендеринг &#9662;
+                                                    <ul class="submenu" id="nextjs-micro2">
+                                                        <li>SSR (Server-Side Rendering) и SSG (Static Site Generation).
+                                                        </li>
+                                                        <li>ISR (Incremental Static Regeneration).</li>
+                                                        <li>CSR (Client-Side Rendering).</li>
+                                                    </ul>
+                                                </li>
+                                                <li class="has-submenu" onclick="toggleSubmenu(event, 'nextjs-micro3')">
+                                                    API роуты &#9662;
+                                                    <ul class="submenu" id="nextjs-micro3">
+                                                        <li>Создание API роутов.</li>
+                                                        <li>Интеграция с внешними API.</li>
+                                                        <li>Миддлвары и обработка ошибок.</li>
+                                                    </ul>
+                                                </li>
+                                                <li class="has-submenu" onclick="toggleSubmenu(event, 'nextjs-micro4')">
+                                                    Аутентификация и авторизация &#9662;
+                                                    <ul class="submenu" id="nextjs-micro4">
+                                                        <li>Использование библиотек для аутентификации (например,
+                                                            NextAuth.js).</li>
+                                                        <li>Реализация защиты маршрутов.</li>
+                                                    </ul>
+                                                </li>
+                                                <li class="has-submenu" onclick="toggleSubmenu(event, 'nextjs-micro5')">
+                                                    Оптимизация производительности &#9662;
+                                                    <ul class="submenu" id="nextjs-micro5">
+                                                        <li>Оптимизация загрузки страниц.</li>
+                                                        <li>Кэширование и использование CDN.</li>
+                                                        <li>Анализ и улучшение производительности с помощью Lighthouse.
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="has-submenu" onclick="toggleSubmenu(event, 'nextjs-micro6')">
+                                                    Интеграция с CSS и другими библиотеками &#9662;
+                                                    <ul class="submenu" id="nextjs-micro6">
+                                                        <li>Стилизация с CSS, Sass и Styled Components.</li>
+                                                        <li>Интеграция с Tailwind CSS.</li>
+                                                        <li>Использование утилит для управления состоянием (например,
+                                                            Zustand, Effector).</li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+
+
+
+
+                                </div>
+                            </div>
+                        </span>
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="./js/about_me.bundle.js"></script>
+    <script>
+        function coordinate(event) {
+            let x = event.clientX;
+            let y = event.clientY;
+            const target = document.getElementById("my_works");
+            const rect = target.getBoundingClientRect().x;
+            const rect2 = target.getBoundingClientRect().y;
+            start = rect;
+            end = rect + 1300;
+            start2 = rect2;
+            end2 = rect2 + 1073.8;
+            background = document.getElementById('verstka_syte_background');
+            background.style.backgroundPositionX = `${x > start ? x / start * 5 : ''}px`;
+            background.style.backgroundPositionY = `${y > start2 ? y / start2 * 2 : ''}px`;
+        }
+
+        function toggleSubmenu(event, submenuId) {
+            event.stopPropagation(); // Останавливает всплытие события
+            const submenu = document.getElementById(submenuId);
+            submenu.style.display = submenu.style.display === 'none' ? 'block' : 'none';
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            // Установите все подменю в скрытое состояние при загрузке страницы
+            document.querySelectorAll('.submenu').forEach(submenu => {
+                submenu.style.display = 'none';
+            });
+        });
+    </script>
+
+</body>
+
+</html>
+    </main>
+    <footer>
+    <div class="footer">
+        <div>
+            <img src="../img/DmitriyBelogash.png" alt="DmitriyBelogash" height="300px">
+        </div>
+        <div class="right_footer">
+            <div class="header_left">
+    <a target="_blank" href="https://github.com/dmitriyxt5">
+        <img class="github_profile" src="./img/github.svg" alt="github_profile" width="56px">
+    </a>
+    <div class="block_social">
+        <a target="_blank" href="https://kwork.ru/user/DmitryFullStack">
+            <img src="./img/kwork.png" alt="kwork_profile" width="50px" style="margin-top: 5px;">
+        </a>
+        <a target="_blank" href="https://wa.me/77027959618">
+            <img src="./img/whatsapp.png" alt="whatsapp_profile" width="45px" style="margin-top: 5px;">
+        </a>
+        <a target="_blank" href="https://t.me/fkcommerce">
+            <img src="./img/telegram.png" alt="telegram_profile" width="45px" style="margin-top: 5px;">
+        </a>
+    </div>
+</div>
+            <h1>Напишите мне!</h1>
+        </div>
+    </div>
+</footer>
+</body>
+
+</html>
+
+<script>
+    document.getElementById('dialog').style.display = 'none'
+    function openImage(src) {
+        document.getElementById('dialog').style.display = 'block'
+        document.getElementById('big_img').src = `../img/${src}`
+    }
+    // document.getElementsByClassName().onclick(open)
+</script>
